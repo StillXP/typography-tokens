@@ -1,0 +1,16 @@
+{
+    "name": "style-dictionary",
+    "version": "0.0.1",
+    "description": "Implementation of Design Tokens using Style Dictionary",
+    "main": "build.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "node ./build.js",
+      "watch": "chokidar 'src/**/*.json' -c 'node ./build.js'"
+    },
+    "devDependencies": {
+      "chokidar-cli": "^1.2.0",
+      "handlebars": "^4.0.11",
+      "style-dictionary": "^2.2.1"
+    }
+  }

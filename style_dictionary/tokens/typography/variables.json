@@ -1,0 +1,94 @@
+{
+    "font": {
+        "size": {
+            "60": {
+                "value": "10px"
+            },
+            "75": {
+                "value": "12px"
+            },
+            "90": {
+                "value": "14px"
+            },
+            "100": {
+                "value": "16px"
+            },
+            "125": {
+                "value": "20px"
+            },
+            "150": {
+                "value": "24px"
+            },
+            "200": {
+                "value": "32px"
+            },
+            "250": {
+                "value": "40px"
+            },
+            "300": {
+                "value": "48px"
+            },
+            "400": {
+                "value": "64px"
+            },
+            "500": {
+                "value": "80px"
+            },
+            "600": {
+                "value": "96px"
+            }
+        },
+        "weight": {
+            "black": {
+                "value": "900"
+            },
+            "bold": {
+                "value": "700"
+            },
+            "book": {
+                "value": "300"
+            },
+            "light": {
+                "value": "300"
+            },
+            "regular": {
+                "value": "400"
+            },
+            "medium": {
+                "value": "500"
+            }
+        }
+    },
+    "letter": {
+        "spacing": {
+            "loose": {
+                "value": "2.9px"
+            },
+            "none": {
+                "value": "0px"
+            },
+            "tight": {
+                "value": "1.9px"
+            },
+            "xloose": {
+                "value": "5.8px"
+            }
+        }
+    },
+    "line": {
+        "height": {
+            "body": {
+                "value": "130%"
+            },
+            "comfy": {
+                "value": "160%"
+            },
+            "none": {
+                "value": "100%"
+            },
+            "normal": {
+                "value": "120%"
+            }
+        }
+    }
+}

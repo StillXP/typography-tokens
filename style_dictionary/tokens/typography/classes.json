@@ -1,0 +1,27 @@
+{
+    "headings":{
+        "heading1": {
+            "value": {
+                "fontFamily": "'FS Industrie'",
+                "fontWeight": "900",
+                "fontSize": "24px",
+                "letterSpacing": "-1.3px",
+                "lineHeight": "28px",
+                "color": "black"
+            },
+            "type": "typography"
+        },
+        "heading2": {
+            "value": {
+                "fontFamily": "'FS Industrie'",
+                "fontWeight": "900",
+                "fontSize": "18px",
+                "letterSpacing": ".3px",
+                "lineHeight": "24px",
+                "color":"black"
+            },
+            "type": "typography"
+        }
+    },
+    "type": "typography"
+}
