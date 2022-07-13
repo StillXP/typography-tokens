@@ -2,4 +2,6 @@
 
 node build.js
 
-that's it
+style-dictionary pulls tokens from tokens/variables.json
+
+Runs transforms on tokens and outputs to the variables directory 
