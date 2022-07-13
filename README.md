@@ -1,5 +1,7 @@
-# Playbook Design System: Typography Tokens
+# Running the Script
 
-Style_Dictionary folder has the goods
+node build.js
 
-Just an initial commit, I'll add more to this soon!
+style-dictionary pulls tokens from tokens/variables.json
+
+Runs transforms on tokens and outputs to the variables directory 
