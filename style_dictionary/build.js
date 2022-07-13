@@ -8,7 +8,7 @@ function getStyleDictionaryConfig() {
         ],
         "platforms": {
             "web/scss": {
-                "buildPath": `build/scss/`,
+                "buildPath": `variables/scss/`,
                 "transformGroup": "scss",
                 "files": [
                     {
@@ -26,22 +26,18 @@ StyleDictionaryPackage.registerTransform({
   name: 'size/percentToNum',
   type: 'value', 
   
-  //Returns current token if it has "type: size"
   matcher: (token) => {   
     return token.attributes.type === 'height';
   },
 
-  //Removes the percentage symbol then places a '.' in that value's correct spot.
   transformer: (token) => {
     var outString = token.value.replace('%', '');
     const index = outString.length - 2;
     outString = outString.slice(0, index) + '.' + outString.slice(index);
     
-    //Return value, add a '0' to values lower than 1
     if(outString.length === 3){
       return `0${outString}`;
     }
-    
     return outString;
   }
 }),
